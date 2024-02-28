@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  position: relative;
+}
+
+.addTaskInput{
+  outline: none;
+  width: 170px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  padding-left: 10px;
+}
+
+.inputContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 20px;
+}
+
+.listContainer{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.taskDiv{
+  background-color: black;
+  border-radius: 6px;
+  padding: 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  width: 170px;
+}
+
+.inputContainer{
+  display: flex;
+}
+
+.addTaskBtn{
+  background-color: black;
+  border: none;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.actionsContainer{
+  display: flex;
+}
